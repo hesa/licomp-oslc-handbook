@@ -1,0 +1,34 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: licomp_oslc_handbook
+Upstream-Contact: Henrik Sandklef <hesa@sandklef.com>
+Source: https://github.com/hesa/licomp_oslc_handbook
+
+
+Files: .github/**
+Copyright: Henrik Sandklef
+License: GPL-3.0-or-later
+
+Files: .gitignore
+Copyright: Henrik Sandklef
+License: GPL-3.0-or-later
+
+Files: .bumpversion.cfg
+Copyright: Henrik Sandklef
+License: GPL-3.0-or-later
+
+Files: requirements*.txt
+Copyright: Henrik Sandklef
+License: GPL-3.0-or-later
+
+Files: README.md
+Copyright: Henrik Sandklef
+License: GPL-3.0-or-later
+
+Files: licomp_oslc_handbook/data/*
+Copyright: Henrik Sandklef
+License: CC-BY-4.0
+
+Files: licenses/*
+Copyright: Copyright 2018-2019 Fintech Open Source Foundation (FINOS), Jilayne Lovejoy, and other contributors.
+License: CC-BY-SA-4.0
+
