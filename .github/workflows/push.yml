@@ -40,9 +40,11 @@ jobs:
     - name: Test
       run: |
         JUNIT_REPORT=1 python3 -m pytest 
+        mkdir licomp_oslc_handbook/data && make matrix        
         make test
     - name: CLI check
       run: |
+        mkdir licomp_oslc_handbook/data && make matrix        
         tests/shell/test_cli.sh
         tests/shell/test_returns.sh
 
@@ -56,6 +58,7 @@ jobs:
 
       # Something to generate files
       - run: |
+         mkdir licomp_oslc_handbook/data && make matrix        
          pip install -r requirements.txt
          pip install -r requirements-dev.txt
          make test
