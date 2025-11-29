@@ -1,4 +1,4 @@
-# Licomp Open Source License Compliance Handbook (licomp-oslc-handbook)
+# licomp-oslc-handbook (Licomp Open Source License Compliance Handbook)
 
 Licomp OSLC-Handbook provides compatibility data:
 
